@@ -1,0 +1,35 @@
+.container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.minHeight {
+  min-height: 75%;
+}
+
+.start {
+  justify-content: flex-start;
+}
+
+column {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+}

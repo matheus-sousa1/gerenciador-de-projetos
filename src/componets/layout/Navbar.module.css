@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  padding: 1em;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.item {
+  margin-right: 1em;
+}
+
+.item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.item a:hover {
+  color: #ffbb33;
+}
+
+@media screen and (max-width: 1199px) {
+  .navbar {
+    width: 1200px;
+  }
+}
+
+
+@media screen and (max-width: 1199px) {
+  .list {
+    display: none;
+  }
+}

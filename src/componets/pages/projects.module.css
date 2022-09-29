@@ -1,0 +1,23 @@
+.project_container {
+  padding: 2em;
+}
+
+.title_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+@media screen and (max-width: 1220px) {
+  .title_container {
+    gap: 0px 10px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .navbar {
+    width: 70%;
+  }
+}
